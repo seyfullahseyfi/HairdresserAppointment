@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "794924226736",
+    "project_id": "hairdresserappointment-5bff4",
+    "storage_bucket": "hairdresserappointment-5bff4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794924226736:android:94413cb06f1c5592bfc375",
+        "android_client_info": {
+          "package_name": "com.seyf.hairdresserappointment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794924226736-20etpno77302dchh2av1npd7mgica8m8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBj8BR3a_D6qVKX4zW-1UnI0kxbmyD680"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794924226736-20etpno77302dchh2av1npd7mgica8m8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.CustomerLogActivity">
+
+    <EditText
+        android:id="@+id/custPassText"
+        android:layout_width="258dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Şifre Giriniz"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/custEmailText" />
+
+    <EditText
+        android:id="@+id/custEmailText"
+        android:layout_width="257dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="E-Posta Giriniz"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/custLogText" />
+
+    <Button
+        android:id="@+id/custLogBtn"
+        android:layout_width="116dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="customerLog"
+        android:text="Giriş Yap"
+        app:layout_constraintEnd_toStartOf="@+id/custRegBtn"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/custPassText" />
+
+    <Button
+        android:id="@+id/custRegBtn"
+        android:layout_width="120dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="76dp"
+        android:onClick="customerRegPage"
+        android:text="Kayıt ol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/custLogBtn"
+        app:layout_constraintTop_toBottomOf="@+id/custPassText" />
+
+    <TextView
+        android:id="@+id/custLogText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="MÜŞTERİ GİRİŞ EKRANI"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

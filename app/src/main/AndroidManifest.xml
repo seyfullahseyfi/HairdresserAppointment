@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HairdresserAppointment"
+        tools:targetApi="31">
+        <activity
+            android:name=".view.CustAppointmentTransactionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.HdAppointmentTransactionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.CustEmployeeDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.HairDresserAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.CustomerAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.MakeAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.AddServicesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.CustHdPriceList"
+            android:exported="false" />
+        <activity
+            android:name=".view.CustHdEmployeesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.CustHairdresserPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.CustHairdressersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.CustomerProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.HairdresserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.PriceRegActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.PriceListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.EmployeeDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.EmployeeRegActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.EmployeesListActivity"
+            android:exported="false"
+            android:label="PERSONEL LİSTESİ" />
+        <activity
+            android:name=".view.CustomerHomePageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.HairdresserHomePageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.HairdresserLogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.CustomerRegActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.HairdresserRegActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.CustomerLogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
